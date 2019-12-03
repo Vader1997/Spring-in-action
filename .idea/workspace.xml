@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b6a0b570-64d7-4992-84e6-e4b94bcfff29" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Spring-in-action.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/config/AutoConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/config/JavaCodeConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/service/AutoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/service/JavaCodeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/service/XmlService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/test/AutoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/test/JavaCodeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/action/test/XmlTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Spring-in-action.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/config/AutoConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/config/JavaCodeConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/service/AutoService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/service/JavaCodeService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/service/XmlService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/test/AutoTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/test/JavaCodeTest.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/action/test/XmlTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +19,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\Idea Project\Spring-in-action\.idea" />
+      </set>
+    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -198,12 +178,24 @@
       <updated>1575108628832</updated>
       <workItem from="1575108633572" duration="7464000" />
       <workItem from="1575177638914" duration="5378000" />
-      <workItem from="1575373827276" duration="2709000" />
+      <workItem from="1575373827276" duration="3342000" />
     </task>
+    <task id="LOCAL-00001" summary="spring配置相关">
+      <created>1575376630911</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1575376630911</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="spring配置相关" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring配置相关" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="30" key="#Project_Structure" timestamp="1575114432348">
@@ -218,6 +210,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="413" y="118" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.738@0.0.1366.738" timestamp="1575374629094" />
+    <state x="295" y="0" key="CommitChangelistDialog2" timestamp="1575376627803">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="295" y="0" key="CommitChangelistDialog2/0.0.1366.738@0.0.1366.738" timestamp="1575376627803" />
     <state x="463" y="126" key="FileChooserDialogImpl" timestamp="1575376372594">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
@@ -254,10 +250,18 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1323" height="361" key="GridCell.Tab.1.right/0.0.1366.738@0.0.1366.738" timestamp="1575376222445" />
+    <state x="323" y="72" key="NewModule_or_Project.wizard" timestamp="1575377353519">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="323" y="72" key="NewModule_or_Project.wizard/0.0.1366.738@0.0.1366.738" timestamp="1575377353519" />
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1575108638323">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="375" y="196" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1575108638323" />
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1575376659568">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="477" y="286" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.738@0.0.1366.738" timestamp="1575376659568" />
     <state x="518" y="247" key="git4idea.rebase.GitRebaseDialog" timestamp="1575376427460">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
