@@ -1,12 +1,8 @@
 package com.spring.transaction2.dao;
 
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class TransactionDaoImpl implements TransactionDao {
-//    @Autowired
-//    @Qualifier("jdbcTemplate")
     private JdbcTemplate jdbcTemplate;
 
     public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
