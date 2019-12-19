@@ -11,6 +11,7 @@
     <module>spring-profile</module>
       <module>Spring-AOP</module>
     <module>spring-jdbc</module>
+      <module>Spring-Transaction</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -57,12 +58,21 @@
       <version>4.12</version>
       <scope>compile</scope>
     </dependency>
-    <!--    <dependency>-->
-<!--      <groupId>junit</groupId>-->
-<!--      <artifactId>junit</artifactId>-->
-<!--      <version>4.12</version>-->
-<!--      <scope>compile</scope>-->
-<!--    </dependency>-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>5.2.0.RELEASE</version>
+    </dependency>
+    <dependency>
+      <groupId>com.mchange</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.5.3</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>8.0.13</version>
+    </dependency>
   </dependencies>
 
   <build>
