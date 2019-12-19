@@ -1,17 +1,18 @@
 package com.spring.transaction1.dao;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Repository;
 
-@Repository
 public class TransactionDaoImpl implements TransactionDao {
-    @Autowired
-    JdbcTemplate jdbcTemplate;
+    private JdbcTemplate jdbcTemplate;
+
+    public void setJdbcTemplate(JdbcTemplate jdbcTemplate) {
+        this.jdbcTemplate = jdbcTemplate;
+    }
+
     @Override
     public void out(String form, double money) {
         String sql="update account set money=money-? where name=?";
-       jdbcTemplate.update(sql,money,form);
+        jdbcTemplate.update(sql,money,form);
     }
 
     @Override
