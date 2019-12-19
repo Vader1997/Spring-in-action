@@ -14,11 +14,11 @@
         <property name="dataSource" ref="dataSource"/>
     </bean>
 
-    <bean id="transactionDao" class="com.spring.transaction2.dao.TransactionDaoImpl">
+    <bean id="transactionDao" class="com.spring.transaction1.dao.TransactionDaoImpl">
         <property name="jdbcTemplate" ref="jdbcTemplate"/>
     </bean>
 
-    <bean id="transactionService" class="com.spring.transaction2.service.TransactionServiceImpl">
+    <bean id="transactionService" class="com.spring.transaction1.service.TransactionServiceImpl">
         <property name="transactionDao" ref="transactionDao" />
     </bean>
 
@@ -26,12 +26,12 @@
         <property name="dataSource" ref="dataSource" />
     </bean>
 
-    <bean id="transferServiceProxy1" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
+    <bean id="transferServiceProxy" class="org.springframework.transaction.interceptor.TransactionProxyFactoryBean">
         <property name="target" ref="transactionService" />
         <property name="transactionManager" ref="transactionManager" />
         <property name="transactionAttributes">
             <props>
-                <prop key="transfer">PROPAGATION_REQUIRED</prop>
+                <prop key="trans*">PROPAGATION_REQUIRED</prop>
             </props>
         </property>
     </bean>
