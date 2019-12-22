@@ -9,9 +9,10 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>spring-profile</module>
-      <module>Spring-AOP</module>
+    <module>Spring-AOP</module>
     <module>spring-jdbc</module>
-      <module>Spring-Transaction</module>
+    <module>Spring-Transaction</module>
+    <module>Spring-ehcache</module>
   </modules>
   <packaging>pom</packaging>
 
