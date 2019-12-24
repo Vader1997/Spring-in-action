@@ -13,6 +13,7 @@
     <module>spring-jdbc</module>
     <module>Spring-Transaction</module>
     <module>Spring-ehcache</module>
+    <module>Spring-Mybatis</module>
   </modules>
   <packaging>pom</packaging>
 
@@ -67,7 +68,7 @@
     <dependency>
       <groupId>com.mchange</groupId>
       <artifactId>c3p0</artifactId>
-      <version>0.9.5.3</version>
+      <version>0.9.5.4</version>
     </dependency>
     <dependency>
       <groupId>mysql</groupId>
